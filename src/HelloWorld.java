@@ -31,12 +31,36 @@ public class HelloWorld {
 //        int x = 5;
 //        System.out.println(x++);
 //        System.out.println(x);
-
-        int x = 5;
-        System.out.println(++x);
-        System.out.println(x);
+        // displays 5 then 6
+//        int x = 5;
+//        System.out.println(++x);
+//        System.out.println(x);
+        // displays 6 then 6
         //the difference is the first code block is using post-increment and the second is doing pre-increment. post-increment executes after its evaluated and pre-increment executes before it's evaluated
+        // #11
+//        String class = "Hello World!"; won't let you use the name class because it is a reserved word in Java
+        // #12
+        // it will make an exception because it an object type and any value can be assigned to it
+//        String theNumberThree = "three";
+//        Object o = theNumberThree;
+//        int three = (int) o;
+        //yes it matches my expectation.
+//        int three = (int) "three";
+        // error: cannot cast an int to a String type
+        // #13
+//        int x = 4;
+//        x += 5;
 
+//        int x = 3;
+//        int y = 4;
+//        y *= x;
 
+//        int x = 10;
+//        int y = 2;
+//        x /= y;
+//        y -= x;
+        // #14
+        int bigNumber = Integer.MAX_VALUE;
+        System.out.println(bigNumber);
     }
 }
